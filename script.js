@@ -67,16 +67,4 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('body').style.color = '#eee';
 });
 
-
-const arr = JSON.parse('[{"planCd":"PP","subplanCd":"Premier Plus","annualLimit":20000,"netCatIP":"Prestige","netCatOP":"Prestige","basicIPCop":0,"basicOPCop":0,"basicOPDed":50,"alahlicoins":0,"dentalLimit":20000,"dentOPCop":0,"maternityLimit":20000,"matIPCop":0,"opticalLimit":20000,"OptOPCop":0,"nationality":"Qatari","areaOfcover":"WORLDWIDE"},{"planCd":"A","subplanCd":"Advantage","annualLimit":20000,"netCatIP":"Privilege","netCatOP":"Privilege","basicIPCop":0,"basicOPCop":0,"basicOPDed":50,"alahlicoins":0,"dentalLimit":20000,"dentOPCop":0,"maternityLimit":20000,"matIPCop":0,"opticalLimit":20000,"OptOPCop":0,"nationality":"Qatari","areaOfcover":"STATE OF QATAR & HOME COUNTRY EXCLUDING USA, CANADA, EUROPE, CHINA, SINGAPORE & JAPAN"},{"planCd":"CL","subplanCd":"Classic Limited","annualLimit":20000,"netCatIP":"Optimum","netCatOP":"Optimum","basicIPCop":0,"basicOPCop":0,"basicOPDed":25,"alahlicoins":0,"dentalLimit":20000,"dentOPCop":0,"maternityLimit":20000,"matIPCop":0,"opticalLimit":20000,"OptOPCop":0,"nationality":"Qatari","areaOfcover":"STATE OF QATAR ONLY"}]');
-let madhu ={
-  planCd:[],
-  subplanCd:[]
-}
-for (let i = 0; i<arr.length;i++){
-  madhu.planCd.push(arr[i].planCd);
-  madhu.subplanCd.push(arr[i].subplanCd);
-}
-console.log(madhu);
-
  

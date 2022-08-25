@@ -1,0 +1,10 @@
+[user]
+    name = madhu, reddy
+    email = tsmadhureddy9@gmail.com
+    password = Newpassword@24
+[push]
+    default = simple
+[credential]
+    helper = cache --timeout=360000000
+[core]
+    autocrlf = false
